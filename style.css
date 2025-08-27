@@ -32,7 +32,7 @@ span{
     position: relative;
     top: -4px;
     left: 24px;
-    font-family: cursive;
+  font-family: "Comic Relief", system-ui;
     letter-spacing: 4px;
 }
 #r2{
@@ -40,7 +40,7 @@ span{
     position: relative;
     top: -16px;
     left: 18px;
-    font-family: cursive;
+      font-family: "Comic Relief", system-ui;
     letter-spacing: 4px;
 }
 .display{
@@ -96,4 +96,5 @@ span{
     top: -4px;
     left: 18px
     }
+
 }
