@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #1f1d4e,#3e3aae, #3029ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+span{
+    display: inline-block;
+    color: yellow;
+    text-shadow: 1px 1px 1px rgb(245, 229, 0),3px 3px 1px rgb(255, 153, 0) , 4px 4px 1px rgb(255, 251, 0), 5px 5px 1px  rgb(255, 81, 0);
+
+    
+
+}
+#r1{
+    transform: rotateZ(14deg);
+    position: relative;
+    top: -4px;
+    left: 24px;
+    font-family: cursive;
+    letter-spacing: 4px;
+}
+#r2{
+    transform: rotateZ(341deg);
+    position: relative;
+    top: -16px;
+    left: 18px;
+    font-family: cursive;
+    letter-spacing: 4px;
+}
+.display{
+    padding: 0 15px 10px 15px;
+    background: white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#password{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: calc(100% - 40px);
+}
+#random{
+    position: relative;
+    top: 10px;
+    text-shadow: 1px 1px 1px rgb(245, 229, 0),3px 3px 1px rgb(255, 153, 0) , 4px 4px 1px rgb(255, 251, 0), 5px 5px 1px  rgb(255, 81, 0);
+    color: white;
+    letter-spacing: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+#generate{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: rgb(0, 3, 185);
+    font-weight: 900;
+    background-color: yellow;
+    box-shadow: 1px 1px 1px rgb(245, 229, 0),3px 3px 1px rgb(255, 153, 0) , 4px 4px 1px rgb(255, 251, 0), 5px 5px 1px  rgb(255, 81, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+#generate:active{
+    transform: translateY(2px);
+    box-shadow: 1px 1px 1px rgb(245, 229, 0);
+}
+@media (max-width:542px) {
+    #r1{
+        transform: rotateZ(355deg);
+    position: relative;
+    top:5px;
+    left: 18px
+    }
+    #r2{
+        transform: rotateZ(355deg);
+    position: relative;
+    top: -4px;
+    left: 18px
+    }
+}
